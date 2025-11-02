@@ -65,8 +65,8 @@ Run locally:
 ```
 streamlit run app/streamlit_dashboard.py
 
-
-🧠 Key Learnings
+---
+## 🧠 Key Learnings
 
 - Proper **date normalization** and feature scaling are critical before clustering.
 - Combining **RFM logic + ML segmentation** improves targeting precision.
@@ -74,9 +74,11 @@ streamlit run app/streamlit_dashboard.py
 - Clear visual profiling supports stakeholder interpretation and strategic planning.
 
 
-⚙️ Reproducibility
+## ⚙️ Reproducibility
 
-Environment Setup
+```markdown
+### **Environment Setup**
+
 ```
 conda create -n retail-analytics python=3.11 -y
 conda activate retail-analytics
@@ -88,10 +90,9 @@ jupyter notebook
 # notebooks/02_rfm_refinement.ipynb
 # notebooks/02b_rfm_refinement.ipynb
 
-
 ---
 
-🧾 Version Control Best Practices
+## 🧾 Version Control Best Practices
 
 - `.gitignore` excludes checkpoints and temporary files to keep the repository clean.  
 - **Git LFS (Large File Storage)** is used to track and manage large CSV files efficiently.  
@@ -103,15 +104,15 @@ git lfs track "data/**/*.csv"
 git add .gitattributes
 git commit -m "Enable Git LFS for all CSVs"
 
-```
-👤 Author
+---
 
-Omolara Okiki
-📊 Data Analyst | Business Intelligence | CRM Segmentation
-📍 West Midlands, UK
+## 👤 Author
 
-🔗 Connect:
+**Omolara Okiki** 📚  
+📊 *Data Analyst | Business Intelligence | CRM Segmentation*  
+📍 *West Midlands, UK*  
 
-GitHub
-LinkedIn
-Portfolio / Projects
+🔗 **Connect:**  
+- [GitHub](https://github.com/omoleek77)  
+- [LinkedIn](https://www.linkedin.com/in/omolara-okiki)  
+- [Portfolio / Projects](https://github.com/omoleek77?tab=repositories)

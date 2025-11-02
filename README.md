@@ -7,16 +7,18 @@ The goal is to help marketing, CRM, and data teams **understand customer behavio
 
 ## 📂 Repository Structure
 
+```bash
 data/
-raw/ # Original transaction and customer data
-processed/ # Cleaned and model-ready data (tracked via Git LFS)
-notebooks/
-01_rfm_refinement.ipynb # Data cleaning, date normalization, and RFM scoring
-02_rfm_refinement.ipynb # Rule-based segmentation, business insights, and visuals
-02b_rfm_refinement.ipynb # K-Means clustering, evaluation, and insights
-app/
-streamlit_dashboard.py # (Optional) Streamlit dashboard for interactive exploration
+├── raw/                     # Original transaction and customer data  
+├── processed/               # Cleaned and model-ready data (tracked via Git LFS)
 
+notebooks/
+├── 01_rfm_refinement.ipynb  # Data cleaning, normalization, and RFM scoring  
+├── 02_rfm_refinement.ipynb  # Rule-based segmentation, business insights, and visuals  
+├── 02b_rfm_refinement.ipynb # K-Means clustering, evaluation, and insights  
+
+app/
+└── streamlit_dashboard.py   # (Optional) Streamlit dashboard for interactive exploration
 
 ---
 
@@ -62,9 +64,11 @@ Will show:
 ---
 
 ### Run locally:
-
 ```bash
 streamlit run app/streamlit_dashboard.py
+
+```
+
 
 ## 🧠 Key Learnings
 
@@ -73,25 +77,23 @@ streamlit run app/streamlit_dashboard.py
 - Git LFS integration ensures large datasets are tracked efficiently.
 - Clear visual profiling supports stakeholder interpretation and strategic planning.
 
----
+
 ## ⚙️ Reproducibility
 
  
 ### **Environment Setup**
-
 ```bash
 conda create -n retail-analytics python=3.11 -y
 conda activate retail-analytics
 pip install pandas numpy scikit-learn seaborn matplotlib streamlit
 
 jupyter notebook
-
----
-
-#Then open and run, in order:
+# Then open and run, in order:
 # notebooks/01_rfm_refinement.ipynb
 # notebooks/02_rfm_refinement.ipynb
 # notebooks/02b_rfm_refinement.ipynb
+
+```
 
 
 ## 🧾 Version Control Best Practices
@@ -106,7 +108,6 @@ git lfs install
 git lfs track "data/**/*.csv"
 git add .gitattributes
 git commit -m "Enable Git LFS for all CSVs"
-
 ---
 
 ## 👤 Author

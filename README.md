@@ -73,10 +73,10 @@ streamlit run app/streamlit_dashboard.py
 - Git LFS integration ensures large datasets are tracked efficiently.
 - Clear visual profiling supports stakeholder interpretation and strategic planning.
 
-
+---
 ## ⚙️ Reproducibility
 
-```markdown
+ 
 ### **Environment Setup**
 
 ```
@@ -85,10 +85,10 @@ conda activate retail-analytics
 pip install pandas numpy scikit-learn seaborn matplotlib streamlit
 
 jupyter notebook
-# Then open and run, in order:
-# notebooks/01_rfm_refinement.ipynb
-# notebooks/02_rfm_refinement.ipynb
-# notebooks/02b_rfm_refinement.ipynb
+### Then open and run, in order:
+### notebooks/01_rfm_refinement.ipynb
+### notebooks/02_rfm_refinement.ipynb
+### notebooks/02b_rfm_refinement.ipynb
 
 ---
 
@@ -106,6 +106,7 @@ git commit -m "Enable Git LFS for all CSVs"
 
 ---
 
+---
 ## 👤 Author
 
 **Omolara Okiki** 📚  

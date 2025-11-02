@@ -19,6 +19,7 @@ notebooks/
 
 app/
 └── streamlit_dashboard.py   # (Optional) Streamlit dashboard for interactive exploration
+```
 
 ---
 
@@ -69,7 +70,7 @@ streamlit run app/streamlit_dashboard.py
 
 ```
 
-
+---
 ## 🧠 Key Learnings
 
 - Proper **date normalization** and feature scaling are critical before clustering.
@@ -77,7 +78,7 @@ streamlit run app/streamlit_dashboard.py
 - Git LFS integration ensures large datasets are tracked efficiently.
 - Clear visual profiling supports stakeholder interpretation and strategic planning.
 
-
+---
 ## ⚙️ Reproducibility
 
  
@@ -95,7 +96,7 @@ jupyter notebook
 
 ```
 
-
+---
 ## 🧾 Version Control Best Practices
 
 - `.gitignore` excludes checkpoints and temporary files to keep the repository clean.  
@@ -108,8 +109,11 @@ git lfs install
 git lfs track "data/**/*.csv"
 git add .gitattributes
 git commit -m "Enable Git LFS for all CSVs"
----
 
+```
+
+
+---
 ## 👤 Author
 
 **Omolara Okiki** 📚  

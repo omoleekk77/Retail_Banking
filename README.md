@@ -59,25 +59,25 @@ Will show:
 - **Visuals:** segment distribution, R/F/M trends, centroid heatmaps  
 - **Insights:** recommended actions per segment  
 
+
 Run locally:
-```bash
+
+```
 streamlit run app/streamlit_dashboard.py
 
----
 
-## 🧠 Key Learnings
+🧠 Key Learnings
 
 - Proper **date normalization** and feature scaling are critical before clustering.
 - Combining **RFM logic + ML segmentation** improves targeting precision.
 - Git LFS integration ensures large datasets are tracked efficiently.
 - Clear visual profiling supports stakeholder interpretation and strategic planning.
 
----
 
-## ⚙️ Reproducibility
+⚙️ Reproducibility
 
-### **Environment Setup**
-```bash
+Environment Setup
+```
 conda create -n retail-analytics python=3.11 -y
 conda activate retail-analytics
 pip install pandas numpy scikit-learn seaborn matplotlib streamlit
@@ -88,15 +88,16 @@ jupyter notebook
 # notebooks/02_rfm_refinement.ipynb
 # notebooks/02b_rfm_refinement.ipynb
 
+
 ---
 
-## 🧾 Version Control Best Practices
+🧾 Version Control Best Practices
 
 - `.gitignore` excludes checkpoints and temporary files to keep the repository clean.  
 - **Git LFS (Large File Storage)** is used to track and manage large CSV files efficiently.  
 
-### **Set up Git LFS**
-```bash
+Set up Git LFS
+```
 git lfs install
 git lfs track "data/**/*.csv"
 git add .gitattributes

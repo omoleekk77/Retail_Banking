@@ -59,13 +59,13 @@ Will show:
 - **Visuals:** segment distribution, R/F/M trends, centroid heatmaps  
 - **Insights:** recommended actions per segment  
 
+---
 
-Run locally:
+### Run locally:
 
-```
+```bash
 streamlit run app/streamlit_dashboard.py
 
----
 ## 🧠 Key Learnings
 
 - Proper **date normalization** and feature scaling are critical before clustering.
@@ -79,18 +79,20 @@ streamlit run app/streamlit_dashboard.py
  
 ### **Environment Setup**
 
-```
+```bash
 conda create -n retail-analytics python=3.11 -y
 conda activate retail-analytics
 pip install pandas numpy scikit-learn seaborn matplotlib streamlit
 
 jupyter notebook
-### Then open and run, in order:
-### notebooks/01_rfm_refinement.ipynb
-### notebooks/02_rfm_refinement.ipynb
-### notebooks/02b_rfm_refinement.ipynb
 
 ---
+
+#Then open and run, in order:
+# notebooks/01_rfm_refinement.ipynb
+# notebooks/02_rfm_refinement.ipynb
+# notebooks/02b_rfm_refinement.ipynb
+
 
 ## 🧾 Version Control Best Practices
 
@@ -98,7 +100,8 @@ jupyter notebook
 - **Git LFS (Large File Storage)** is used to track and manage large CSV files efficiently.  
 
 Set up Git LFS
-```
+
+```bash
 git lfs install
 git lfs track "data/**/*.csv"
 git add .gitattributes
@@ -106,7 +109,6 @@ git commit -m "Enable Git LFS for all CSVs"
 
 ---
 
----
 ## 👤 Author
 
 **Omolara Okiki** 📚  
